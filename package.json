@@ -1,6 +1,6 @@
 {
   "name": "concur-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "concur-promise is a utility function that prevents duplicate execution of identical Promise calls in a short time span, ensuring concurrent requests are only processed once.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,19 @@
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Howlcn1997/concur-promise"
+  },
+  "homepage": "https://github.com/Howlcn1997/concur-promise#readme",
+  "keywords": [
+    "concurrent",
+    "promise",
+    "concur-promise",
+    "promise once",
+    "once",
+    "processed once"
+  ],
   "authors": [
     "howlcn1997"
   ],
