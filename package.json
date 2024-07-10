@@ -1,0 +1,33 @@
+{
+  "name": "concur-promise",
+  "version": "1.0.0",
+  "description": "concur-promise is a utility function that prevents duplicate execution of identical Promise calls in a short time span, ensuring concurrent requests are only processed once.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "keywords": [],
+  "authors": [
+    "howlcn1997"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "compiled"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.6",
+    "father": "^4.5.0-rc.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
