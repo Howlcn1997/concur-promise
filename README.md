@@ -1,5 +1,8 @@
 # concurPromise
 
+[![NPM version](https://img.shields.io/npm/v/concur-promise.svg?style=flat)](https://npmjs.com/package/concur-promise)
+[![NPM downloads](http://img.shields.io/npm/dm/concur-promise.svg?style=flat)](https://npmjs.com/package/concur-promise)
+
 `concurPromise` is a utility function that prevents duplicate execution of identical Promise calls in a short time span, ensuring concurrent requests are only processed once.
 
 ## Installation
@@ -73,4 +76,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Acknowledgements
 
-This utility function uses `lodash.isEqual` for argument comparison.
+This utility function uses `lodash.isequal` for argument comparison.

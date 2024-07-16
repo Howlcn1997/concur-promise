@@ -1,4 +1,4 @@
-import { isEqual as lodashIsEqual } from "lodash";
+import lodashIsEqual from "lodash.isequal";
 
 interface Pending {
   resolve: (value: any) => void;
